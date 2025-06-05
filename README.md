@@ -2,6 +2,8 @@
 
 A modern, responsive website for W.F. Young, showcasing their equine and pet care products.
 
+[![Deployed with Vercel](https://vercel.com/button)](https://wfyoung.vercel.app)
+
 ## Live Website
 
 Visit the website at: [W.F. Young Website](https://wfyoung.vercel.app)
@@ -13,6 +15,7 @@ Visit the website at: [W.F. Young Website](https://wfyoung.vercel.app)
 - Contact form for customer inquiries
 - Modern UI with smooth animations and transitions
 - Built with accessibility in mind
+- Automatic deployments via Vercel
 
 ## Technology Stack
 
@@ -52,7 +55,7 @@ npm run test
 
 ## Deployment
 
-The website is automatically deployed to Vercel on every push to the main branch.
+The website is automatically deployed to Vercel on every push to the main branch. Visit the [deployment dashboard](https://vercel.com) to monitor the status.
 
 ## License
 
