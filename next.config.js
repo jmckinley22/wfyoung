@@ -1,16 +1,17 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  output: 'standalone',
+  output: 'export',
   images: {
-    domains: ['wfyoung.vercel.app'],
-    unoptimized: false,
+    unoptimized: true,
+    remotePatterns: [
+      {
+        protocol: 'https',
+        hostname: 'wfyoung.vercel.app',
+      },
+    ],
   },
   // Enable static exports
   trailingSlash: true,
-  // Disable server components for static export
-  experimental: {
-    appDir: true,
-  }
 }
 
 module.exports = nextConfig 
