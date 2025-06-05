@@ -10,11 +10,8 @@ module.exports = {
       colors: {
         primary: '#0070f3',
       },
-      fontWeight: {
-        normal: '400',
-        medium: '500',
-        semibold: '600',
-        bold: '700',
+      fontFamily: {
+        sans: ['Inter', 'sans-serif'],
       },
     },
   },

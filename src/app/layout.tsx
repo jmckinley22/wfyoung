@@ -25,8 +25,8 @@ export default function RootLayout({
         <main className="min-h-screen">
           {children}
         </main>
-        <Chatbot />
         <Footer />
+        <Chatbot />
       </body>
     </html>
   )
