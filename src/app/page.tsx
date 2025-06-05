@@ -1,21 +1,12 @@
 'use client'
 
 import Link from 'next/link'
-import Image from 'next/image'
 
 export default function Home() {
   return (
     <div className="min-h-screen">
       {/* Hero Section */}
-      <section className="relative h-[80vh] flex items-center justify-center bg-gray-900 text-white">
-        <div className="absolute inset-0 z-0">
-          <Image
-            src="/images/hero-bg.jpg"
-            alt="Hero background"
-            fill
-            className="object-cover opacity-50"
-          />
-        </div>
+      <section className="relative h-[80vh] flex items-center justify-center bg-gradient-to-r from-blue-600 to-blue-800 text-white">
         <div className="relative z-10 text-center max-w-4xl mx-auto px-4">
           <h1 className="text-5xl md:text-6xl font-bold mb-6">
             Healthier Animals.<br />
@@ -26,7 +17,7 @@ export default function Home() {
           </p>
           <Link
             href="/products"
-            className="btn-primary"
+            className="inline-flex items-center px-6 py-3 border border-transparent text-base font-medium rounded-md text-blue-700 bg-white hover:bg-blue-50"
           >
             View Products
           </Link>
@@ -57,14 +48,7 @@ export default function Home() {
           <div className="grid md:grid-cols-2 gap-8">
             {/* Equine Category */}
             <div className="bg-white rounded-xl shadow-lg overflow-hidden">
-              <div className="aspect-w-16 aspect-h-9 relative">
-                <Image
-                  src="/images/products/equine-category.jpg"
-                  alt="Equine Products"
-                  fill
-                  className="object-cover"
-                />
-              </div>
+              <div className="aspect-w-16 aspect-h-9 bg-blue-100"></div>
               <div className="p-6">
                 <h3 className="text-2xl font-bold mb-2">Equine</h3>
                 <p className="text-gray-600 mb-4">
@@ -72,7 +56,7 @@ export default function Home() {
                 </p>
                 <Link
                   href="/equine"
-                  className="btn-primary"
+                  className="inline-flex items-center px-4 py-2 border border-transparent text-base font-medium rounded-md text-white bg-blue-600 hover:bg-blue-700"
                 >
                   View Equine Products
                 </Link>
@@ -81,14 +65,7 @@ export default function Home() {
 
             {/* Pet Care Category */}
             <div className="bg-white rounded-xl shadow-lg overflow-hidden">
-              <div className="aspect-w-16 aspect-h-9 relative">
-                <Image
-                  src="/images/products/pets-category.jpg"
-                  alt="Pet Care Products"
-                  fill
-                  className="object-cover"
-                />
-              </div>
+              <div className="aspect-w-16 aspect-h-9 bg-blue-100"></div>
               <div className="p-6">
                 <h3 className="text-2xl font-bold mb-2">Pet Care</h3>
                 <p className="text-gray-600 mb-4">
@@ -96,7 +73,7 @@ export default function Home() {
                 </p>
                 <Link
                   href="/pets"
-                  className="btn-primary"
+                  className="inline-flex items-center px-4 py-2 border border-transparent text-base font-medium rounded-md text-white bg-blue-600 hover:bg-blue-700"
                 >
                   View Pet Products
                 </Link>
@@ -117,7 +94,7 @@ export default function Home() {
           </p>
           <Link
             href="/contact"
-            className="btn-primary"
+            className="inline-flex items-center px-4 py-2 border border-transparent text-base font-medium rounded-md text-white bg-blue-600 hover:bg-blue-700"
           >
             Contact Us
           </Link>

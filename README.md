@@ -1,80 +1,59 @@
 # W.F. Young Website
 
-A modern, responsive website for W.F. Young built with Next.js and Tailwind CSS. This website showcases W.F. Young's animal wellness products and services with a focus on user experience and performance.
+A modern, responsive website for W.F. Young, showcasing their equine and pet care products.
+
+## Live Website
+
+Visit the website at: [W.F. Young Website](https://wfyoung.vercel.app)
 
 ## Features
 
-- 🎨 Modern, responsive design
-- ⚡ Fast page loads with Next.js
-- 🎯 SEO optimized
-- 📱 Mobile-first approach
-- 🎨 Tailwind CSS for styling
-- 🔍 Product showcase
-- 📝 Dynamic content management
+- Responsive design that works on desktop and mobile devices
+- Product category pages for both equine and pet care products
+- Contact form for customer inquiries
+- Modern UI with smooth animations and transitions
+- Built with accessibility in mind
 
-## Getting Started
+## Technology Stack
 
-### Prerequisites
+- Next.js 14
+- TypeScript
+- Tailwind CSS
+- Playwright for end-to-end testing
 
-- Node.js 18.0 or later
-- npm or yarn package manager
+## Development
 
-### Installation
+To run this project locally:
 
 1. Clone the repository:
 ```bash
-git clone <repository-url>
+git clone https://github.com/yourusername/wfyoung.git
 cd wfyoung
 ```
 
 2. Install dependencies:
 ```bash
 npm install
-# or
-yarn install
 ```
 
-3. Run the development server:
+3. Start the development server:
 ```bash
 npm run dev
-# or
-yarn dev
 ```
 
-4. Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+4. Open [http://localhost:3000](http://localhost:3000) in your browser.
 
-## Project Structure
+## Testing
 
-```
-src/
-├── app/              # Next.js app directory
-│   ├── layout.tsx   # Root layout component
-│   ├── page.tsx     # Home page
-│   └── products/    # Products section
-├── components/       # Reusable components
-└── styles/          # Global styles
+Run the end-to-end tests:
+```bash
+npm run test
 ```
 
-## Built With
+## Deployment
 
-- [Next.js](https://nextjs.org/) - The React framework for production
-- [Tailwind CSS](https://tailwindcss.com/) - A utility-first CSS framework
-- [React](https://reactjs.org/) - A JavaScript library for building user interfaces
-
-## Contributing
-
-1. Fork the repository
-2. Create your feature branch (`git checkout -b feature/amazing-feature`)
-3. Commit your changes (`git commit -m 'Add some amazing feature'`)
-4. Push to the branch (`git push origin feature/amazing-feature`)
-5. Open a Pull Request
+The website is automatically deployed to Vercel on every push to the main branch.
 
 ## License
 
-This project is licensed under the MIT License - see the LICENSE file for details.
-
-## Contact
-
-W.F. Young - [Contact Us](https://www.wfyoung.com/contact)
-
-Phone: 800-628-9653
+All rights reserved. © 2024 W.F. Young

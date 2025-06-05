@@ -7,14 +7,13 @@ module.exports = {
   ],
   theme: {
     extend: {
-      aspectRatio: {
-        'w-16': '16',
-        'h-9': '9',
+      colors: {
+        primary: '#0070f3',
       },
     },
   },
   plugins: [
-    require('@tailwindcss/aspect-ratio'),
     require('@tailwindcss/forms'),
+    require('@tailwindcss/aspect-ratio'),
   ],
 } 
