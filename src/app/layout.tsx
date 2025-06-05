@@ -10,6 +10,7 @@ const inter = Inter({ subsets: ['latin'] })
 export const metadata: Metadata = {
   title: 'W.F. Young - Healthier Animals. Happier Humans.',
   description: 'Discover innovative solutions for animal wellness. At W.F. Young, we\'re reinventing animal wellness standards for happier pets and humans.',
+  metadataBase: new URL('https://wfyoung.vercel.app'),
 }
 
 export default function RootLayout({
